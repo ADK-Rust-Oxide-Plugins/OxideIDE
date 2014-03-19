@@ -1,0 +1,22 @@
+﻿<Window x:Class="OxideIde.Windows.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="About" Height="300" Width="300">
+	<StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+		<StackPanel HorizontalAlignment="Center"  Orientation="Horizontal">
+			<Image Source="pack://application:,,,/OxideIde;component/OxIDE Logo.ico" Width="64"/>
+			<TextBlock HorizontalAlignment="Center" FontSize="16" Margin="10">
+			Ox(ide)2 <LineBreak />
+			Version r3
+			</TextBlock>
+		</StackPanel>
+		<Label Content="Contributors" FontSize="16" HorizontalContentAlignment="Center" />
+		<ListView>
+			<TextBlock>billykater</TextBlock>
+			<TextBlock>Ross</TextBlock>
+			<TextBlock>Erates</TextBlock>
+		</ListView>
+		<TextBlock HorizontalAlignment="Center"><Hyperlink NavigateUri="https://bitbucket.org/billykater/ox-ide-2/" RequestNavigate="OnLinkClicked">Bitbucket (Source Code, Issue tracker)</Hyperlink></TextBlock>
+		<TextBlock HorizontalAlignment="Center"><Hyperlink NavigateUri="http://forum.rustoxide.com/threads/ox-ide-2-plugin-ide.455/" RequestNavigate="OnLinkClicked">rustoxide forum thread</Hyperlink></TextBlock>
+	</StackPanel>
+</Window>

@@ -1,0 +1,9 @@
+syntax: glob
+RustOxide.v12.suo
+OxideEmulation/bin/*
+OxideEmulation/obj/*
+OxideIde/bin/*
+OxideIde/obj/*
+packages/*
+RustOxide.sln.DotSettings.user
+releases/*
